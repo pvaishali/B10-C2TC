@@ -11,9 +11,9 @@ public void run() {
 		System.out.println("priority of the thread th1 is : "+ th1.getPriority());
 		System.out.println("priority of the thread th2 is : "+ th2.getPriority());
 		System.out.println("priority of the thread th3 is : "+ th3.getPriority());
- th1.setPriority(Thread.MIN_PRIORITY);
- th1.setPriority(Thread.NORM_PRIORITY);
- th1.setPriority(Thread.MAX_PRIORITY);
+ th1.setPriority(6);
+ th2.setPriority(7);
+ th3.setPriority(9);
  System.out.println("priority of the thread th1 is : "+ th1.getPriority());
 	System.out.println("priority of the thread th2 is : "+ th2.getPriority());
 	System.out.println("priority of the thread th3 is : "+ th3.getPriority());
