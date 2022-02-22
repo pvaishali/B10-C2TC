@@ -1,6 +1,4 @@
 package feb22;
-import java.util.Scanner;
-import java.io.*;
 public class ReverseString {
 	public static void main(String[] args) {
 		String name="raghul";
