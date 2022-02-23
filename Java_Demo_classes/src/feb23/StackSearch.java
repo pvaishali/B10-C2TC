@@ -9,5 +9,4 @@ System.out.println("the stack is:"+s1);
 System.out.println("does the stack contain:"+s1.search("ganesh")); 
 System.out.println("does the stack contain:"+s1.search("vaishu")); 
 	}
-
 }
