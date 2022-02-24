@@ -16,6 +16,7 @@ void Display(List<String>list) {
 		oj.add("vi");
 		oj.add("i");
 		System.out.println("element is:"+oj);
+		
 		 Linkedlistdemo2 lld=new  Linkedlistdemo2();
 		 oj.sort(null);
 		 lld.Display(oj);
