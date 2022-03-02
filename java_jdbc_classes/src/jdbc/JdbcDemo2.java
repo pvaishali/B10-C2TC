@@ -11,7 +11,7 @@ public class JdbcDemo2 {
 		//String query1="insert into employee values(1,'vaishu','345')";
 		//String query2="insert into employee values(2,'vaishu','455')";
 		String query2="update employee set ename='ganesh' where id=2"; 
-		st.executeUpdate(query2);
+		//st.executeUpdate(query2);
 		//System.out.println("table created");
 	//	System.out.println("inserted");
 		st.close();
