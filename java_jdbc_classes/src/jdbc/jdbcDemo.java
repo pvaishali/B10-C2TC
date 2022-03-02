@@ -14,7 +14,8 @@ public class jdbcDemo {
   //  String query2="insert into student values(2,'papaa')";
     //String query3="insert into student values(3,'gud')";
    // String query3="delete from student where id=3";
-  String query2="update student set sname='raghul' where id=2";  
+  //String query2="update student set sname='raghul' where id=2"; 
+    
 st.executeUpdate(query2);
 System.out.println("table created");
 System.out.println("inserted");
