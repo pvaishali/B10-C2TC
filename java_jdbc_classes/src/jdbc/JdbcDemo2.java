@@ -13,7 +13,7 @@ public class JdbcDemo2 {
 		String query2="update employee set ename='ganesh' where id=2"; 
 		st.executeUpdate(query2);
 		//System.out.println("table created");
-		System.out.println("inserted");
+	//	System.out.println("inserted");
 		st.close();
 		con.close();
 		
