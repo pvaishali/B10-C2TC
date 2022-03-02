@@ -14,6 +14,8 @@ public class JdbcDemo2 {
 		//st.executeUpdate(query2);
 		//System.out.println("table created");
 		System.out.println("inserted");
+		System.out.println("executed");
+		
 		st.close();
 		con.close();
 		
