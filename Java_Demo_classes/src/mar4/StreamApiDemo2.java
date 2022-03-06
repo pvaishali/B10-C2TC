@@ -2,14 +2,6 @@ package mar4;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
-
-	//Consumer Interface 
-	class A implements Consumer<Integer>{
-		 public void accept(Integer i) {
-			  System.out.println(i);
-		  }
-	}
-	
 		public class StreamApiDemo2 {
 		public static void main(String[] args) {
 			List<Integer> values = Arrays.asList(1,2,3);
@@ -28,4 +20,9 @@ import java.util.function.Consumer;
 			values.forEach(c);
 	}
 	}
-
+		//Consumer Interface 
+		class A implements Consumer<Integer>{
+			 public void accept(Integer i) {
+				  System.out.println(i);
+			  }
+		}
