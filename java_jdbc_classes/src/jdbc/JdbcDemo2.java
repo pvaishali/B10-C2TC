@@ -13,14 +13,8 @@ public class JdbcDemo2 {
 		//String query2="insert into employee values(2,'vaishu','455')";
 		//String query2="update employee set ename='ganesh' where id=2"; 
 		
-		ResultSet rs=st.executeQuery("SELECT id,ename,esalary From  employee");
-		while(rs.next())
-		{
-			System.out.println(rs.getString(1));
-			System.out.println(rs.getString(2));
-			System.out.println(rs.getString(3));
-		}
-		//st.executeUpdate(query2);
+		
+	//	st.executeUpdate(query2);
 		
 		//System.out.println("table created");
 		
