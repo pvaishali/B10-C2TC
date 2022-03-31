@@ -3,11 +3,12 @@ package com.cg.jpastart.entities;
 import java.io.Serializable;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
-public class Address  implements Serializable{
+@Entity
+public class Address implements Serializable{
 	private static final long serialversionUID=1L;
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
